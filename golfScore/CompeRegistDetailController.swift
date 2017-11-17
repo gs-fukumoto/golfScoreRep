@@ -10,4 +10,17 @@ import UIKit
 
 class CompeRegistDetailController: UIViewController{
     
+    @IBAction func backToCompeRegistList(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func backToCompeRegistCourse(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func backToCompeRegistMember(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+    
 }

@@ -112,9 +112,10 @@ class CompeRegistListController: UIViewController, UITableViewDelegate, UITableV
         appDelegate.regMem4Grp = String(describing: article["comp_id"]!)
         appDelegate.regMem4Name = String(describing: article["comp_id"]!)
         tableView.deselectRow(at: indexPath, animated: true)
+        
         //ここに遷移処理を書く
         let storyboard: UIStoryboard = self.storyboard!
-        let nextView = storyboard.instantiateViewController(withIdentifier: "CompeRegistDetail")
+        let nextView = storyboard.instantiateViewController(withIdentifier: "CompeRegistCourse")
         present(nextView, animated: true, completion: nil)
         
     }

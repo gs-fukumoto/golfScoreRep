@@ -16,4 +16,8 @@ class ScoreDetailController: UIViewController{
         let nextView = storyboard.instantiateViewController(withIdentifier: "ScoreList")
         present(nextView, animated: true, completion: nil)
     }
+    
+    @IBAction func backToScoreList(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }

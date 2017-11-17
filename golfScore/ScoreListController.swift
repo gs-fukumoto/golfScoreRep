@@ -13,6 +13,9 @@ class ScoreListController: UIViewController, UITableViewDelegate, UITableViewDat
 
     @IBOutlet weak var tableView: UITableView!
     
+    @IBAction func backToCompeList(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
     let appDelegate:AppDelegate = UIApplication.shared.delegate as! AppDelegate
     
     var compeId : String!
