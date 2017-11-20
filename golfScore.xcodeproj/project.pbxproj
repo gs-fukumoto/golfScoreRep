@@ -8,16 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		6170BC61FCE624C9108D3356 /* Pods_golfScore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 88F044C90F37A48F9959EA95 /* Pods_golfScore.framework */; };
-		DE1C62F71FB45A2100ABB61C /* CompeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE1C62F61FB45A2100ABB61C /* CompeListController.swift */; };
-		DE27E3A91FBC0C950038671C /* CompeRegistListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27E3A81FBC0C950038671C /* CompeRegistListController.swift */; };
-		DE27E3AB1FBC11100038671C /* CompeRegistDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE27E3AA1FBC11100038671C /* CompeRegistDetailController.swift */; };
 		DE4F3E901FA7FF360042AC84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F3E8F1FA7FF360042AC84 /* AppDelegate.swift */; };
-		DE4F3E921FA7FF360042AC84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE4F3E911FA7FF360042AC84 /* ViewController.swift */; };
 		DE4F3E951FA7FF360042AC84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4F3E931FA7FF360042AC84 /* Main.storyboard */; settings = {ASSET_TAGS = (1, ); }; };
 		DE4F3E971FA7FF360042AC84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE4F3E961FA7FF360042AC84 /* Assets.xcassets */; };
-		DE4F3E9A1FA7FF360042AC84 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE4F3E981FA7FF360042AC84 /* LaunchScreen.storyboard */; };
-		DEACC1ED1FB057C9002B503C /* ScoreListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEACC1EC1FB057C9002B503C /* ScoreListController.swift */; };
-		DEEED3ED1FA9C875003C3B6E /* ScoreDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEEED3EC1FA9C874003C3B6E /* ScoreDetailController.swift */; };
+		DE8955351FC28FB000986E91 /* CompeRegistDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE89552F1FC28FB000986E91 /* CompeRegistDetailController.swift */; };
+		DE8955361FC28FB000986E91 /* CompeRegistListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8955301FC28FB000986E91 /* CompeRegistListController.swift */; };
+		DE8955371FC28FB000986E91 /* ScoreDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8955311FC28FB000986E91 /* ScoreDetailController.swift */; };
+		DE8955381FC28FB000986E91 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8955321FC28FB000986E91 /* ViewController.swift */; };
+		DE8955391FC28FB000986E91 /* CompeListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8955331FC28FB000986E91 /* CompeListController.swift */; };
+		DE89553A1FC28FB000986E91 /* ScoreListController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8955341FC28FB000986E91 /* ScoreListController.swift */; };
 		DEF529911FB13ED400B85FF8 /* CustomClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF529901FB13ED400B85FF8 /* CustomClass.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,18 +24,17 @@
 		20ED4F7A78847C4C9C027870 /* Pods-golfScore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-golfScore.release.xcconfig"; path = "Pods/Target Support Files/Pods-golfScore/Pods-golfScore.release.xcconfig"; sourceTree = "<group>"; };
 		77503928DA9B72AD37F3ADDA /* Pods-golfScore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-golfScore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-golfScore/Pods-golfScore.debug.xcconfig"; sourceTree = "<group>"; };
 		88F044C90F37A48F9959EA95 /* Pods_golfScore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_golfScore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DE1C62F61FB45A2100ABB61C /* CompeListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompeListController.swift; sourceTree = "<group>"; };
-		DE27E3A81FBC0C950038671C /* CompeRegistListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompeRegistListController.swift; sourceTree = "<group>"; };
-		DE27E3AA1FBC11100038671C /* CompeRegistDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompeRegistDetailController.swift; sourceTree = "<group>"; };
 		DE4F3E8C1FA7FF360042AC84 /* golfScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = golfScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE4F3E8F1FA7FF360042AC84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DE4F3E911FA7FF360042AC84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DE4F3E941FA7FF360042AC84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DE4F3E961FA7FF360042AC84 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DE4F3E991FA7FF360042AC84 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE4F3E9B1FA7FF360042AC84 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEACC1EC1FB057C9002B503C /* ScoreListController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreListController.swift; sourceTree = "<group>"; };
-		DEEED3EC1FA9C874003C3B6E /* ScoreDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreDetailController.swift; sourceTree = "<group>"; };
+		DE89552F1FC28FB000986E91 /* CompeRegistDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompeRegistDetailController.swift; sourceTree = "<group>"; };
+		DE8955301FC28FB000986E91 /* CompeRegistListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompeRegistListController.swift; sourceTree = "<group>"; };
+		DE8955311FC28FB000986E91 /* ScoreDetailController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreDetailController.swift; sourceTree = "<group>"; };
+		DE8955321FC28FB000986E91 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DE8955331FC28FB000986E91 /* CompeListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompeListController.swift; sourceTree = "<group>"; };
+		DE8955341FC28FB000986E91 /* ScoreListController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScoreListController.swift; sourceTree = "<group>"; };
 		DEF529901FB13ED400B85FF8 /* CustomClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -82,20 +80,27 @@
 		DE4F3E8E1FA7FF360042AC84 /* golfScore */ = {
 			isa = PBXGroup;
 			children = (
+				DE89552E1FC28F0900986E91 /* Controller */,
 				DEF5298D1FB13E5500B85FF8 /* Model */,
 				DE4F3E8F1FA7FF360042AC84 /* AppDelegate.swift */,
-				DE4F3E911FA7FF360042AC84 /* ViewController.swift */,
-				DEACC1EC1FB057C9002B503C /* ScoreListController.swift */,
-				DEEED3EC1FA9C874003C3B6E /* ScoreDetailController.swift */,
-				DE1C62F61FB45A2100ABB61C /* CompeListController.swift */,
 				DE4F3E931FA7FF360042AC84 /* Main.storyboard */,
 				DE4F3E961FA7FF360042AC84 /* Assets.xcassets */,
-				DE4F3E981FA7FF360042AC84 /* LaunchScreen.storyboard */,
 				DE4F3E9B1FA7FF360042AC84 /* Info.plist */,
-				DE27E3A81FBC0C950038671C /* CompeRegistListController.swift */,
-				DE27E3AA1FBC11100038671C /* CompeRegistDetailController.swift */,
 			);
 			path = golfScore;
+			sourceTree = "<group>";
+		};
+		DE89552E1FC28F0900986E91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DE8955331FC28FB000986E91 /* CompeListController.swift */,
+				DE89552F1FC28FB000986E91 /* CompeRegistDetailController.swift */,
+				DE8955301FC28FB000986E91 /* CompeRegistListController.swift */,
+				DE8955311FC28FB000986E91 /* ScoreDetailController.swift */,
+				DE8955341FC28FB000986E91 /* ScoreListController.swift */,
+				DE8955321FC28FB000986E91 /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 		DEF5298D1FB13E5500B85FF8 /* Model */ = {
@@ -179,7 +184,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE4F3E9A1FA7FF360042AC84 /* LaunchScreen.storyboard in Resources */,
 				DE4F3E971FA7FF360042AC84 /* Assets.xcassets in Resources */,
 				DE4F3E951FA7FF360042AC84 /* Main.storyboard in Resources */,
 			);
@@ -246,14 +250,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE27E3A91FBC0C950038671C /* CompeRegistListController.swift in Sources */,
+				DE89553A1FC28FB000986E91 /* ScoreListController.swift in Sources */,
+				DE8955381FC28FB000986E91 /* ViewController.swift in Sources */,
+				DE8955361FC28FB000986E91 /* CompeRegistListController.swift in Sources */,
+				DE8955391FC28FB000986E91 /* CompeListController.swift in Sources */,
+				DE8955371FC28FB000986E91 /* ScoreDetailController.swift in Sources */,
+				DE8955351FC28FB000986E91 /* CompeRegistDetailController.swift in Sources */,
 				DEF529911FB13ED400B85FF8 /* CustomClass.swift in Sources */,
-				DEACC1ED1FB057C9002B503C /* ScoreListController.swift in Sources */,
-				DE4F3E921FA7FF360042AC84 /* ViewController.swift in Sources */,
-				DEEED3ED1FA9C875003C3B6E /* ScoreDetailController.swift in Sources */,
-				DE1C62F71FB45A2100ABB61C /* CompeListController.swift in Sources */,
 				DE4F3E901FA7FF360042AC84 /* AppDelegate.swift in Sources */,
-				DE27E3AB1FBC11100038671C /* CompeRegistDetailController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,14 +270,6 @@
 				DE4F3E941FA7FF360042AC84 /* Base */,
 			);
 			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		DE4F3E981FA7FF360042AC84 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DE4F3E991FA7FF360042AC84 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
